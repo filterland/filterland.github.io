@@ -24,3 +24,12 @@ img:hover {
 	height: 75px;
 	margin-bottom: 20px; 	
 }
+
+.filter-image-margin {
+	margin: 0 25px 30px 25px;
+}
+
+.footer-section td {
+	padding: 0 120px 0 120px;
+	background-color: rgba(211,211,211, 0.5); 
+}
