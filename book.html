@@ -25,6 +25,9 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
+    <!-- Javascript validator -->
+    <script src="js/validator.js"></script>
+
 </head>
 
 <body>
@@ -71,17 +74,36 @@
                 <div class="home-container">
                     <div class="contain-color caption-container">
                             <p style="color: GREEN">BOOK ONLINE</p>
-                            <p class="font-small-light">Name:</p>
-                            <div class="input-container">  <input type='text'> </div> 
-                            <p class="font-small-light">Contact number:</p>
-                            <div class="input-container">  <input type='text'> </div>
-                            <p class="font-small-light">Email Address:</p>
-                            <div class="input-container">  <input type='text'> </div>
-                            <div class="button-container" style="margin: 0 0 0 300px;"><a href="" class="mybutton">Next ></a></div>     
+                            <h1>Contact us</h1>
+                            <form method="POST" name="contactform" action="contact-form.php"> 
+                            <p>
+                            <label for='name'>Your Name:</label> <br>
+                            <input type="text" name="name">
+                            </p>
+                            <p>
+                            <label for='email'>Email Address:</label> <br>
+                            <input type="text" name="email"> <br>
+                            </p>
+                            <p>
+                            <label for='message'>Message:</label> <br>
+                            <textarea name="message"></textarea>
+                            </p>
+                            <input type="submit" value="Submit"><br>
+                            </form> 
                     </div> 
                 </div>
             </div>
         </div>
+
+        <script language="JavaScript">
+        // Code for validating the form
+        // Visit http://www.javascript-coder.com/html-form/javascript-form-validation.phtml
+        // for details
+        var frmvalidator  = new Validator("contactform");
+        frmvalidator.addValidation("name","req","Please provide your name"); 
+        frmvalidator.addValidation("email","req","Please provide your email"); 
+        frmvalidator.addValidation("email","email","Please enter a valid email address"); 
+        </script>
 
         <hr>
 
