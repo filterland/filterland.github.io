@@ -18,6 +18,8 @@
     <link href="css/main.css" rel="stylesheet">
     <link href="css/full-slider.css" rel="stylesheet">
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -73,46 +75,87 @@
     <div class="container" style="margin-top: 50px;">
 
         <div class="row">
-            <div class="col-lg-12" style="margin-top: 100px;">
-                <table>
-                    <tr>
-                        <td><img class="filter-image-container filter-image-margin" src="img/filter1.png"></td>
-                        <td><img class="filter-image-container filter-image-margin" src="img/filter2.png"></td>
-                        <td><img class="filter-image-container filter-image-margin" src="img/filter3.png"></td>
-                        <td><img class="filter-image-container filter-image-margin" src="img/filter4.png"></td>
-                        <td><img class="filter-image-container filter-image-margin" src="img/filter5.png"></td>
-                        <td><img class="filter-image-container filter-image-margin" src="img/filter6.png"></td>
-                        <td><img class="filter-image-container filter-image-margin" src="img/filter7.png"></td>
-                    </tr>
-                    <tr>    
-                        <td><img class="filter-image-container filter-image-margin" src="img/filter8.png"></td>
-                        <td><img class="filter-image-container filter-image-margin" src="img/filter10.png"></td>  
-                        <td><img class="filter-image-container filter-image-margin" src="img/filter11.png"></td>
-                        <td><img class="filter-image-container filter-image-margin" src="img/filter12.png"></td>
-                        <td><img class="filter-image-container filter-image-margin" src="img/filter13.png"></td>
-                        <td><img class="filter-image-container filter-image-margin" src="img/filter14.png"></td>
-                    </tr>
-                </table>
+            <div class="col-lg-12" style="margin-top: 15px;">
+                <img src="img/filters-variety.jpg" style="height:350px; margin-left: 200px">
+            </div>
+        </div>
+        <hr>
+
+        <div class="col-lg-12 footer-section">
+            <div class="col-md-4 my-products">
+                <ul>
+                    <li id="oil-f">Oil & Gas Filters</li>
+                    <li id="hyd-f">Hydraulic Filters</li>
+                    <li id="air-f">Air Filters</li>
+                    <li id="fuel-f">Fuel Filters</li>
+                </ul>
+            </div>
+
+            <div id="about-air" class="col-md-8 about">
+                <h3> Air Filters :</h3>
+ 
+                <p> Clean Air Critical to Engine Performance </p>
+
+                <p>Just 200 grams of dirt can destroy an engine.</p>
+
+                <p>Contamination of intake air by dust and dirt causes engine wear, reduced performance and costly maintenance. That’s why air filtration is one of the most critical functions for effective engine performance.</p>
+
+                <p>A particulate air filter is a device composed of fibrous materials which removes solid particulates such as dust, pollen, mould, and bacteria from the air. Filters containing an absorbent or catalyst such as charcoal (carbon) may also remove odors and gaseous pollutants such as volatile organic compounds or ozone. Air filters are used in applications where air quality is important, notably in building ventilation systems and in engines.</p>
+
+                <p><b> Filterland </b> air filtration products are designed to effectively reduce the amount of damage-causing dust and dirt particles that make their way into your equipment’s engine.</p>
+
+                <p> The <b> Filterland </b> range works to prolong engine life, maintain engine output and maximise fuel economy. Every ​Fleetguardguard product meets or surpasses the quality and performance standards required by a new engine. </p>
+
+                <img src="img/air-filters.jpg" style="height:300px">
+            </div>
+            <div id="about-fuel" class="col-md-8 about">
+                <h3> Fuel Filters :</h3>
+ 
+                <p> Fuel systems are affected by various forms of contamination such as particulates, water, paraffin wax and asphaltene. Cummins Filtration is leading the way with new technologies in fuel filtration to removal harmful contaminants, thus improving reliability, service intervals and fuel efficiencies, and reducing costs. </p>
+
+                <p>Poorly performing fuel systems impact fuel economy, power output and cost of ownership through increased maintenance, repairs and downtime.</p>
+
+                <p>A fuel filter is a filter in the fuel line that screens out dirt and rust particles from the fuel, normally made into cartridges containing a filter paper. They are found in most internal combustion engines.</p>
+
+                <p>Fuel filters serve a vital function in today's modern, tight-tolerance engine fuel systems. Unfiltered fuel may contain several kinds of contamination, for example paint chips and dirt that has been knocked into the tank while filling, or rust caused by moisture in a steel tank. If these substances are not removed before the fuel enters the system, they will cause rapid wear and failure of the fuel pump and injectors, due to the abrasive action of the particles on the high-precision components used in modern injection systems. Fuel filters also improve performance, as the fewer contaminants present in the fuel, the more efficiently it can be burnt.</p>
+
+                <p>Fuel filters need to be maintained at regular intervals. This is usually a case of simply disconnecting the filter from the fuel line and replacing it with a new one, although some specially designed filters can be cleaned and reused many times. If a filter is not replaced regularly it may become clogged with contaminants and cause a restriction in the fuel flow, causing an appreciable drop in engine performance as the engine struggles to draw enough fuel to continue running normally.</p>
+
+                <img src="img/fuelfilter.jpg" style="height:300px">
+            </div>
+
+            <div id="about-hydraulic" class="col-md-8 about">
+                <h3> Hydraulic Filters :</h3>
+ 
+                <p> Hydraulic filters protect your hydraulic system components from damage due to contamination of oils or other hydraulic fluid in use caused by particles. Every minute, approximately one million particles larger than 1 micron (0.001 mm or 1 μm) enter a hydraulic system. These particles can cause damage to hydraulic system components because hydraulic oil is easily contaminated. Thus maintaining a good hydraulic filtration system will increase hydraulic component lifetime.</p>
+
+                <p>Heavy truck, off-highway, agricultural and construction vehicles and equipment depend on hydraulic fluids to power many of their critical functions. To operate at peak efficiency, fluid contaminants must be kept to an absolute minimum – no small challenge given the rugged environments these vehicles and equipment work in every day. WIX has applied its superior filter design and manufacturing expertise to produce high quality hydraulic filters for a variety of applications.</p>
+
+                <p>The wear of hydraulic system components is dependent on this contamination, and the existence of metal parts in hydraulic system oil (iron and copper are particularly powerful catalysts) accelerates its degradation. A hydraulic filter helps to remove these particles and clean the oil on a continuous basis. The performance for every hydraulic filter is measured by its contamination removal efficiency, i.e. high dirt-holding capacities.</p>
+
+                <img src="img/hydraulic-filters.jpg" style="height:300px">
+            </div>
+
+            <div id="about-oil" class="col-md-8 about">
+                <h3> Oil Filters :</h3>
+ 
+                <p> An oil filter is a filter designed to remove contaminants from engine oil, transmission oil, lubricating oil, or hydraulic oil. Oil filters are used in many different types of hydraulic machinery. A chief use of the oil filter is in internal-combustion engines in on- and off-road motor vehicles, light aircraft, and various naval vessels. Other vehicle hydraulic systems, such as those in automatic transmissions and power steering, are often equipped with an oil filter. Gas turbine engines, such as those on jet aircraft, also require the use of oil filters. Aside from these uses, oil production, transport, and recycling facilities also employ filters in the manufacturing process.</p>
+
+                <p>The importance of clean motor oil: 
+                Clean motor oil is important because if the oil were left unfiltered for a period of time, it could become saturated with tiny, hard particles that can wear surfaces in your engine. This dirty oil can wear the oil pump’s machined components and damage the bearing surfaces in the engine.</p>
+
+                <p>How oil filters work: 
+                The outside of the filter is a metal can with a sealing gasket that allows it to be tightly held against the engine’s mating surface. The base plate of the can holds the gasket and is perforated with holes around the area just inside the gasket. A central hole is threaded to mate with the oil filter assembly on the engine block. Inside the can is the filter material, most frequently made from synthetic fiber. The engine’s oil pump moves the oil directly to the filter, where it enters from the holes in the perimeter of the base plate. The dirty oil is passed (pushed under pressure) through the filter media and back through the central hole, where it re-enters the engine.</p>
+
+                <img src="img/oilfilter.png" style="height:300px">
             </div>
         </div>
 
-        <div class="row">
-            <div class="col-lg-12 footer-section">
-                <h1 class="center-text"> Our Products</h1>
-                <table>
-                   <tr>
-                       <td><h3>Oil Filters</h3></td>
-                       <td><h3>Gas Filters</h3></td>
-                       <td><h3>Air Filters</h3></td>
-                   </tr>
-                </table>
-            </div>
-        </div>
 
         <hr>
 
         <!-- Footer -->
-        <footer style="margin-bottom: 0;">
+        <footer style="margin-bottom: 0; margin-top: 800px">
             <div class="row">
              <div >
             <a href="https://twitter.com/FilterlandNg"><img width="45px;" height="40px;" src="img/twitter.png"></a>
@@ -145,6 +188,38 @@
         </footer>
 
     </div>
+    <script>
+        $(document).ready(function(){
+            $("#about-hydraulic").hide();
+            $("#about-air").hide();
+            $("#about-fuel").hide();
+
+            $("#oil-f").click(function(){
+                $("#about-hydraulic").hide();
+                $("#about-air").hide();
+                $("#about-fuel").hide();
+                $("#about-oil").show();
+            });
+            $("#hyd-f").click(function(){
+                $("#about-hydraulic").show();
+                $("#about-air").hide();
+                $("#about-fuel").hide();
+                $("#about-oil").hide();
+            });
+            $("#air-f").click(function(){
+                $("#about-hydraulic").hide();
+                $("#about-air").show();
+                $("#about-fuel").hide();
+                $("#about-oil").hide();
+            });
+            $("#fuel-f").click(function(){
+                $("#about-hydraulic").hide();
+                $("#about-air").hide();
+                $("#about-fuel").show();
+                $("#about-oil").hide();
+            });
+        });
+    </script>
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),

@@ -1,4 +1,4 @@
-img:hover {
+.icon-filter-image:hover {
     transform: scale(1.6,1.6);
 }
 
@@ -60,4 +60,16 @@ img:hover {
 .jobs-container {
 	width: 100%;
 	margin-top: 100px;
+}
+.about {
+	position: absolute;
+	right: 0;
+}
+.my-products {
+	margin-top: 40px;
+	font-size: 20px;
+}
+.my-products ul li:hover {
+	cursor: pointer;
+	color: green;
 }
