@@ -73,3 +73,9 @@
 	cursor: pointer;
 	color: green;
 }
+
+@media only screen and (max-width: 414px) {
+  .bottom-images{
+  	display: none;
+  }
+}
